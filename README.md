@@ -63,15 +63,14 @@ https://wokwi.com/projects/435803709667624961
 # Code
 Main Arduino file: sketch.ino
 
-# Demo Video: https://drive.google.com/file/d/1bi9xZkOrSt18PDriAw8p2L-XDTdymnXy/view?usp=sharing 
+# Demo Video
+https://drive.google.com/file/d/1bi9xZkOrSt18PDriAw8p2L-XDTdymnXy/view?usp=sharing 
 
 # Future Enhancements
-Integrate Firebase for historical logging
-Use Blynk IoT for mobile push alerts
-Add AI-based weight anomaly detection
+Integrate Firebase for historical logging, 
+Use Blynk IoT for mobile push alerts, 
+Add AI-based weight anomaly detection, 
 Expand to LoRa/GSM modules for rural areas
 
 # Author
-Ananya Karmakar
-Course: Industrial IoT & Architecture
-Project by: L&T EduTech College Connect
+Ananya Karmakar | Course: Industrial IoT & Architecture | Project by: L&T EduTech College Connect
