@@ -58,8 +58,7 @@ ESP32 reads weight from HX711 module -> Displays live weight on I2C LCD -> Compa
 
 # Wokwi Simulation Circuit
 Diagram created and tested on Wokwi
-https://wokwi.com/projects/435803709667624961 
-diagram.json, libraries.txt
+https://wokwi.com/projects/435803709667624961 | Components & pin connections- diagram.json | Arduino libraries- libraries.txt
 
 # Code
 Main Arduino file: sketch.ino
