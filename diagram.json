@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "author": "Ananya Karmakar 23BLC1017",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 14.3, "left": 81.4, "attrs": {} },
+    { "type": "wokwi-hx711", "id": "hx", "top": 41, "left": 252.2, "attrs": {} },
+    { "type": "wokwi-load-cell", "id": "loadcell", "top": 240, "left": 120, "attrs": {} },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": 44.8,
+      "left": 495.2,
+      "attrs": { "pins": "i2c" }
+    }
+  ],
+  "connections": [
+    [ "hx:DT", "esp:D4", "green", [ "h-67.2", "v57.1" ] ],
+    [ "hx:SCK", "esp:D5", "gold", [ "h0" ] ],
+    [ "lcd1:SDA", "esp:D21", "violet", [ "h-28.8", "v-86.2", "h-278.4", "v67.2" ] ],
+    [ "lcd1:SCL", "esp:D22", "blue", [ "h19.2", "v-114.9", "h-326.4", "v57.6" ] ],
+    [ "esp:GND.1", "hx:GND", "black", [ "h0" ] ],
+    [ "esp:GND.1", "lcd1:GND", "black", [ "h0" ] ],
+    [ "esp:3V3", "hx:VCC", "red", [ "v0", "h28.5" ] ],
+    [ "lcd1:VCC", "esp:3V3", "red", [ "h-28.8", "v134.5" ] ]
+  ],
+  "serialMonitor": { "display": "always", "newline": "lf", "convertEol": false },
+  "dependencies": {}
+}
