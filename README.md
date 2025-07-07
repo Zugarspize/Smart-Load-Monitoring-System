@@ -51,7 +51,7 @@ By incorporating a Wi-Fi capable microcontroller using ESP32 this load monitorin
 4. Wi-Fi/Hotspot (ESP32 internet access)
 
 # Flowchart
-![Code Flowchart](https://github.com/user-attachments/assets/ecf6c360-c17d-4633-b9f1-894e037a36bc)
+Code Flowchart.png
 
 # How It Works
 ESP32 reads weight from HX711 module -> Displays live weight on I2C LCD -> Compares with min and max thresholds -> If weight is out of range, sends MQTT alert -> Repeats every 3 seconds
@@ -59,6 +59,7 @@ ESP32 reads weight from HX711 module -> Displays live weight on I2C LCD -> Compa
 # Wokwi Simulation Circuit
 Diagram created and tested on Wokwi
 https://wokwi.com/projects/435803709667624961 
+diagram.json, libraries.txt
 
 # Code
 Main Arduino file: sketch.ino
