@@ -29,7 +29,7 @@ By incorporating a Wi-Fi capable microcontroller using ESP32 this load monitorin
 
 # Required Components
 
-# Hardware:
+#Hardware:
 1. HX711 Module-	Analog-to-digital converter to read load cell data (weight)
 2. Load Cell-	Sensor to measure weight placed on platform
 3. ESP32-	Microcontroller with Wi-Fi capability
@@ -37,7 +37,7 @@ By incorporating a Wi-Fi capable microcontroller using ESP32 this load monitorin
 5. Wires-	Circuit connection
 6. Power Supply	5V- for powering the microcontroller
 
-# Software:
+#Software:
 1. Arduino IDE-	Programming ESP32 and Debugging
 2. Wokwi Simulator-	Circuit Simulation and testing
 3. HX711 Library-	For interfacing with the load cell sensor
@@ -46,7 +46,7 @@ By incorporating a Wi-Fi capable microcontroller using ESP32 this load monitorin
 6. MQTT- 	Cloud connection via WiFi for real-time alerts 
 7. GitHub-	Documentation of code & files
 
-# Cloud Platforms & IoT Services:
+#Cloud Platforms & IoT Services:
 1. Google FireBase Realtime Dashboard-	Optional integration for logging weight values, viewing historical data, and building mobile or web dashboards.
 2. Blynk IoT-	Creates custom mobile apps to remotely monitor weight and receive push notifications when thresholds are crossed.
 3. HiveMQ (MQTT Broker)-	For real-time weight data transmission and alert messaging over the MQTT protocol. Free and public for testing.
